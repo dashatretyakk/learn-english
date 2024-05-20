@@ -1,0 +1,551 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@example.com",
+      "password": "password123",
+      "completedCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "7979",
+      "email": "marian@gmail.com",
+      "password": "123",
+      "completedCourses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "results": [
+        {
+          "courseId": null,
+          "score": 0
+        },
+        {
+          "courseId": null,
+          "score": 1
+        },
+        {
+          "courseId": 1,
+          "score": 2
+        },
+        {
+          "courseId": 1,
+          "score": 2
+        },
+        {
+          "courseId": 2,
+          "score": 0
+        },
+        {
+          "courseId": 2,
+          "score": 0
+        },
+        {
+          "courseId": 2,
+          "score": 2
+        },
+        {
+          "courseId": null,
+          "score": 1,
+          "timestamp": "2024-05-19T00:36:56.750Z"
+        },
+        {
+          "courseId": 2,
+          "score": 0
+        },
+        {
+          "courseId": 3,
+          "score": 0
+        },
+        {
+          "courseId": 4,
+          "score": 0
+        },
+        {
+          "courseId": 3,
+          "score": 1
+        },
+        {
+          "courseId": 5,
+          "score": 0
+        },
+        {
+          "courseId": 5,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "ff28",
+      "email": "alina@gmail.com",
+      "password": "123",
+      "completedCourses": [
+        "1"
+      ],
+      "results": [
+        {
+          "courseId": 1,
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Beginner English",
+      "description": "Start your journey with basic vocabulary and grammar. Perfect for absolute beginners.",
+      "icon": "📘",
+      "bgColor": "bg-blue-100",
+      "iconColor": "bg-blue-300",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "Welcome to the Beginner English course! In this course, you will learn basic vocabulary and grammar to help you start speaking English."
+        },
+        {
+          "id": 2,
+          "title": "Present Simple Tense",
+          "content": "The present simple tense is used to describe habits, unchanging situations, general truths, and fixed arrangements. Example: I eat breakfast every day."
+        },
+        {
+          "id": 3,
+          "title": "Past Simple Tense",
+          "content": "The past simple tense is used to talk about completed actions in the past. Example: I visited my grandmother last weekend."
+        },
+        {
+          "id": 4,
+          "title": "Future Simple Tense",
+          "content": "The future simple tense is used to describe actions that will happen in the future. Example: I will go to the store tomorrow."
+        },
+        {
+          "id": 5,
+          "title": "Conclusion",
+          "content": "Congratulations! You have completed the Beginner English course. Keep practicing what you've learned and continue your journey to becoming fluent in English."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Intermediate English",
+      "description": "Enhance your skills with intermediate grammar and conversation practice.",
+      "icon": "📗",
+      "bgColor": "bg-green-100",
+      "iconColor": "bg-green-300",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "Welcome to the Intermediate English course! In this course, you will build on your basic knowledge and learn more complex grammar and vocabulary."
+        },
+        {
+          "id": 2,
+          "title": "Present Continuous Tense",
+          "content": "The present continuous tense is used to describe actions that are happening right now or are ongoing. Example: I am studying English."
+        },
+        {
+          "id": 3,
+          "title": "Past Continuous Tense",
+          "content": "The past continuous tense is used to describe actions that were happening at a specific moment in the past. Example: I was watching TV when the phone rang."
+        },
+        {
+          "id": 4,
+          "title": "Future Continuous Tense",
+          "content": "The future continuous tense is used to describe actions that will be happening at a specific moment in the future. Example: I will be working at 9 AM tomorrow."
+        },
+        {
+          "id": 5,
+          "title": "Present Perfect Tense",
+          "content": "The present perfect tense is used to describe actions that have happened at an unspecified time or that started in the past and continue to the present. Example: I have finished my homework."
+        },
+        {
+          "id": 6,
+          "title": "Past Perfect Tense",
+          "content": "The past perfect tense is used to describe actions that were completed before another action in the past. Example: I had finished my homework before I went out."
+        },
+        {
+          "id": 7,
+          "title": "Future Perfect Tense",
+          "content": "The future perfect tense is used to describe actions that will be completed before a specific moment in the future. Example: I will have finished my project by next week."
+        },
+        {
+          "id": 8,
+          "title": "Conclusion",
+          "content": "Congratulations! You have completed the Intermediate English course. Keep practicing what you've learned to further improve your skills and confidence in English."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Advanced English",
+      "description": "Master complex grammar and advanced vocabulary to become fluent.",
+      "icon": "📕",
+      "bgColor": "bg-red-100",
+      "iconColor": "bg-red-300",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "Welcome to the Advanced English course! In this course, you will master complex grammar structures and advanced vocabulary to achieve fluency."
+        },
+        {
+          "id": 2,
+          "title": "Present Perfect Continuous Tense",
+          "content": "The present perfect continuous tense is used to describe actions that started in the past and are still continuing or have recently stopped. Example: I have been studying for three hours."
+        },
+        {
+          "id": 3,
+          "title": "Past Perfect Continuous Tense",
+          "content": "The past perfect continuous tense is used to describe actions that were ongoing in the past before another action. Example: I had been reading for an hour before she arrived."
+        },
+        {
+          "id": 4,
+          "title": "Future Perfect Continuous Tense",
+          "content": "The future perfect continuous tense is used to describe actions that will be ongoing up until a specific point in the future. Example: By next month, I will have been working at this company for a year."
+        },
+        {
+          "id": 5,
+          "title": "Advanced Conditionals",
+          "content": "Advanced conditionals are used to describe complex hypothetical situations and their consequences. Example: If I had known about the meeting, I would have attended."
+        },
+        {
+          "id": 6,
+          "title": "Advanced Passive Voice",
+          "content": "The passive voice is used to focus on the action rather than the subject. Advanced passive constructions can add nuance to your writing. Example: The project had been completed before the deadline was announced."
+        },
+        {
+          "id": 7,
+          "title": "Reported Speech",
+          "content": "Reported speech is used to relay what someone else has said. Example: She said that she was going to the store."
+        },
+        {
+          "id": 8,
+          "title": "Advanced Vocabulary and Idioms",
+          "content": "Expand your vocabulary with advanced words and idiomatic expressions. Example: 'Break the ice' means to initiate conversation in a social setting."
+        },
+        {
+          "id": 9,
+          "title": "Conclusion",
+          "content": "Congratulations! You have completed the Advanced English course. Keep practicing what you've learned to maintain and further improve your fluency."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Business English",
+      "description": "Learn English for professional settings, including meetings, presentations, and emails.",
+      "icon": "💼",
+      "bgColor": "bg-yellow-100",
+      "iconColor": "bg-yellow-300",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "Welcome to the Business English course! This course will help you learn the language skills needed for professional settings, including meetings, presentations, and emails."
+        },
+        {
+          "id": 2,
+          "title": "Meeting Language",
+          "content": "Learn essential phrases and vocabulary for participating in meetings. Example: 'Could you please clarify that point?'"
+        },
+        {
+          "id": 3,
+          "title": "Presentation Skills",
+          "content": "Develop your presentation skills with useful phrases and tips. Example: 'Today, I am going to talk about our new project.'"
+        },
+        {
+          "id": 4,
+          "title": "Email Etiquette",
+          "content": "Master the art of writing professional emails. Example: 'Dear Mr. Smith, I hope this email finds you well. I am writing to inquire about...' "
+        },
+        {
+          "id": 5,
+          "title": "Telephone Conversations",
+          "content": "Improve your telephone communication skills. Example: 'Good morning, this is John from XYZ Company. How can I help you today?'"
+        },
+        {
+          "id": 6,
+          "title": "Networking",
+          "content": "Learn how to network effectively in professional settings. Example: 'It's a pleasure to meet you. What line of work are you in?'"
+        },
+        {
+          "id": 7,
+          "title": "Conclusion",
+          "content": "Congratulations! You have completed the Business English course. Use these skills to communicate effectively in professional settings."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Travel English",
+      "description": "Prepare for your travels with essential phrases and vocabulary for various situations.",
+      "icon": "✈️",
+      "bgColor": "bg-purple-100",
+      "iconColor": "bg-purple-300",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "Welcome to the Travel English course! This course will help you learn essential phrases and vocabulary for various travel situations."
+        },
+        {
+          "id": 2,
+          "title": "At the Airport",
+          "content": "Learn useful phrases for navigating the airport. Example: 'Where is the check-in counter?'"
+        },
+        {
+          "id": 3,
+          "title": "Hotel Check-in",
+          "content": "Master the phrases needed for checking into a hotel. Example: 'I have a reservation under the name of Smith.'"
+        },
+        {
+          "id": 4,
+          "title": "Asking for Directions",
+          "content": "Learn how to ask for and understand directions. Example: 'Can you please tell me how to get to the nearest subway station?'"
+        },
+        {
+          "id": 5,
+          "title": "Ordering Food",
+          "content": "Get comfortable with ordering food in restaurants. Example: 'I would like to order the grilled chicken, please.'"
+        },
+        {
+          "id": 6,
+          "title": "Shopping",
+          "content": "Learn phrases for shopping and bargaining. Example: 'How much does this cost?'"
+        },
+        {
+          "id": 7,
+          "title": "Emergency Situations",
+          "content": "Know what to say in case of emergencies. Example: 'I need help. I lost my passport.'"
+        },
+        {
+          "id": 8,
+          "title": "Conclusion",
+          "content": "Congratulations! You have completed the Travel English course. Use these skills to make your travels smoother and more enjoyable."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "English for Kids",
+      "description": "Fun and engaging lessons to help children learn English through games and activities.",
+      "icon": "🎨",
+      "bgColor": "bg-pink-100",
+      "iconColor": "bg-pink-300",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "Welcome to the English for Kids course! This course will help children learn English through fun games and activities."
+        },
+        {
+          "id": 2,
+          "title": "Basic Vocabulary",
+          "content": "Learn basic words for everyday objects. Example: 'apple, ball, cat.'"
+        },
+        {
+          "id": 3,
+          "title": "Colors and Shapes",
+          "content": "Learn the names of colors and shapes. Example: 'red, blue, circle, square.'"
+        },
+        {
+          "id": 4,
+          "title": "Numbers and Counting",
+          "content": "Learn numbers and how to count. Example: 'one, two, three.'"
+        },
+        {
+          "id": 5,
+          "title": "Animals",
+          "content": "Learn the names of common animals. Example: 'dog, cat, elephant.'"
+        },
+        {
+          "id": 6,
+          "title": "Family Members",
+          "content": "Learn the names of family members. Example: 'mother, father, sister, brother.'"
+        },
+        {
+          "id": 7,
+          "title": "Everyday Activities",
+          "content": "Learn phrases for everyday activities. Example: 'brushing teeth, eating breakfast.'"
+        },
+        {
+          "id": 8,
+          "title": "Conclusion",
+          "content": "Congratulations! You have completed the English for Kids course. Keep practicing what you've learned and have fun with English!"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "courseId": 1,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the present simple tense used for?",
+          "options": [
+            "Describing habits and general truths",
+            "Describing actions happening right now",
+            "Describing future plans",
+            "Describing completed actions in the past"
+          ],
+          "answer": "Describing habits and general truths"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a correct example of the present simple tense?",
+          "options": [
+            "I am eating breakfast.",
+            "I eat breakfast every day.",
+            "I will eat breakfast tomorrow.",
+            "I have eaten breakfast."
+          ],
+          "answer": "I eat breakfast every day."
+        }
+      ],
+      "id": "2ed8"
+    },
+    {
+      "courseId": 2,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the past continuous tense used for?",
+          "options": [
+            "Describing habits and general truths",
+            "Describing actions happening right now",
+            "Describing actions that were happening at a specific moment in the past",
+            "Describing completed actions in the past"
+          ],
+          "answer": "Describing actions that were happening at a specific moment in the past"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a correct example of the past continuous tense?",
+          "options": [
+            "I am eating breakfast.",
+            "I eat breakfast every day.",
+            "I was eating breakfast when the phone rang.",
+            "I will eat breakfast tomorrow."
+          ],
+          "answer": "I was eating breakfast when the phone rang."
+        }
+      ],
+      "id": "3488"
+    },
+    {
+      "courseId": 3,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the present perfect tense used for?",
+          "options": [
+            "Describing actions that happened at an unspecified time",
+            "Describing actions happening right now",
+            "Describing future plans",
+            "Describing completed actions in the past"
+          ],
+          "answer": "Describing actions that happened at an unspecified time"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a correct example of the present perfect tense?",
+          "options": [
+            "I am eating breakfast.",
+            "I eat breakfast every day.",
+            "I have eaten breakfast.",
+            "I will eat breakfast tomorrow."
+          ],
+          "answer": "I have eaten breakfast."
+        }
+      ]
+    },
+    {
+      "courseId": 4,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the best way to start a formal email?",
+          "options": [
+            "Hey",
+            "Hi",
+            "Dear",
+            "What's up"
+          ],
+          "answer": "Dear"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is appropriate for a business meeting?",
+          "options": [
+            "Wearing casual clothes",
+            "Using informal language",
+            "Arriving on time",
+            "Bringing a friend"
+          ],
+          "answer": "Arriving on time"
+        }
+      ]
+    },
+    {
+      "courseId": 5,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which phrase would you use to ask for directions?",
+          "options": [
+            "What time is it?",
+            "Where is the nearest bank?",
+            "How much does this cost?",
+            "Can I have the bill, please?"
+          ],
+          "answer": "Where is the nearest bank?"
+        },
+        {
+          "id": 2,
+          "question": "How do you say 'Thank you' in a polite manner?",
+          "options": [
+            "Cheers",
+            "Thanks",
+            "Thanks a lot",
+            "Thank you very much"
+          ],
+          "answer": "Thank you very much"
+        }
+      ]
+    },
+    {
+      "courseId": 6,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the English word for 'chien'?",
+          "options": [
+            "Cat",
+            "Dog",
+            "Bird",
+            "Fish"
+          ],
+          "answer": "Dog"
+        },
+        {
+          "id": 2,
+          "question": "What is the color of the sky?",
+          "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+          ],
+          "answer": "Blue"
+        }
+      ]
+    }
+  ]
+}
